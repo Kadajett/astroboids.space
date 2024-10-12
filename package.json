@@ -10,6 +10,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.11.0",
+    "@clerk/clerk-sdk-node": "^5.0.49",
+    "@clerk/nextjs": "^5.7.2",
+    "@supabase/supabase-js": "^2.45.4",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.50.0",
     "@trpc/client": "^11.0.0-rc.446",
@@ -21,6 +25,8 @@
     "react-dom": "^18.3.1",
     "server-only": "^0.0.1",
     "superjson": "^2.2.1",
+    "swr": "^2.2.5",
+    "vm2": "^3.9.19",
     "zod": "^3.23.3"
   },
   "devDependencies": {
